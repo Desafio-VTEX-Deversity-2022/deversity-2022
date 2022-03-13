@@ -1,0 +1,38 @@
+
+input{
+    margin: 5px;
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+}
+
+p{
+     margin: 5px;
+}
+
+button{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f44336;
+    border:none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+}
+
+select{
+    margin: 5px;
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+}
