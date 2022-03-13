@@ -10,9 +10,12 @@ const ProductDraw = (/** { productIds } */) => {
 
   return (
     <div className="flex flex-column items-center ma3">
+
+    
       <div>
         Where is the data?
       </div>
+      
       <div>
         <button onClick={() => alert('clicked')}>Search new product</button>
       </div>
@@ -20,10 +23,10 @@ const ProductDraw = (/** { productIds } */) => {
   )
 }
 
-ProductDraw.schema = {
-  title: 'My component',
-  type: 'object',
-  properties: {},
-}
+//ProductDraw.schema = {
+  //title: 'My component',
+  //type: 'object',
+  //properties: {},
+//}
 
 export default ProductDraw

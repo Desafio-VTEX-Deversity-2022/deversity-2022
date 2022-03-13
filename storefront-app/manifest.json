@@ -9,9 +9,7 @@
     "store": "0.x",
     "messages": "1.x"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "registries": [
     "smartcheckout"
   ],
