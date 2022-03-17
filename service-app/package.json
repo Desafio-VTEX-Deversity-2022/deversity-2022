@@ -26,9 +26,9 @@
     "@vtex/prettier-config": "^0.3.1",
     "eslint": "^6.8.0",
     "eslint-config-vtex": "^12.7.0",
-    "husky": "^4.2.0",
     "lint-staged": "^10.0.2",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
-  }
+  },
+  "dependencies": {}
 }

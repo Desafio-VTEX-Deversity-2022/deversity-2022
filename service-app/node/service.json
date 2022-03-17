@@ -8,6 +8,10 @@
     "changeMe": {
       "path": "/_v/change-me",
       "public": true
+    },
+    "jsonplaceholder": {
+      "path": "/_v/jsonplaceholder/users",
+      "public": true
     }
   }
 }
