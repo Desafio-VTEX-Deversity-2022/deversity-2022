@@ -8,6 +8,10 @@
     "changeMe": {
       "path": "/_v/change-me",
       "public": true
+    },
+    "status" : {
+      "path": "/_v/status/:code",
+      "public": true
     }
   }
 }

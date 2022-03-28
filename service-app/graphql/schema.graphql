@@ -1,8 +1,16 @@
-type OtherType {
-  message: String
+type User {
+  value: String
+  rules: String 
+  name: String 
+  cashback: String
+  id: ID!
 }
 
 type Query {
-  # You can place comments here
-  queryOne(argOne: String, argTwo: Int!): OtherType
+  users: [User!]!
+   user(id: ID! ): User 
+}
+
+type Mutation {
+    createUser(name: String!, email: String!) : User 
 }

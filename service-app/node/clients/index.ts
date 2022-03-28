@@ -1,11 +1,15 @@
 import { IOClients } from '@vtex/api'
+import { Catalog } from '@vtex/clients'
 
+import Status from './status'
+
+// Extend the default IOClients implementation with our own custom clients.//
 export class Clients extends IOClients {
-  // public get jsonPlaceholder() {
-  //   return this.getOrSet('jsonPlaceholder', JsonPlaceholderClient)
-  // }
+ // cd public get status() {
+   // return this.getOrSet('status', Status)
+  //}
 
-  // public get externalMasterdata() {
-  //   return this.getOrSet('externalMasterdata', ExternalMasterdata)
-  // }
+  public get catalog() {
+    return this.getOrSet('catalog', Catalog)
+  }
 }

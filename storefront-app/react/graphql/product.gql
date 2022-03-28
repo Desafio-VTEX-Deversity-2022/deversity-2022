@@ -1,0 +1,7 @@
+type User {
+  value: String
+  rules: String 
+  name: String 
+  cashback: String
+  id: ID!
+}
